@@ -2,3 +2,16 @@ GET https://api.sleeper.app/v1/user/<PwnRangr>
 GET https://sleepercdn.com/avatars/<avatar_id>
 GET https://api.sleeper.app/v1/league/<league_id>
 GET https://api.sleeper.app/v1/league/<league_id>/users
+[
+  {
+    "user_id": "<user_id>",
+    "username": "<username>",
+    "display_name": "<display_name>",
+    "avatar": "1233456789",
+    "metadata": {
+      "team_name": "Dezpacito"
+    },
+    "is_owner": true   // is commissioner (there can be multiple commissioners)
+  },
+  ...
+]
