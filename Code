@@ -1,3 +1,5 @@
+curl "https://api.sleeper.app/v1/user/<PwnRangr>"
+
 [
   {
     "user_id": "<user_id>",
